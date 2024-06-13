@@ -1,0 +1,7 @@
+<svg width="30" height="30" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg" tabindex="-1">
+                     <line x2="30" y1="7" y2="7" id="icon__hamburger-top" stroke="white" stroke-width="4" tabindex="-1"></line>
+                     <line x2="30" y1="15" y2="15" id="icon__hamburger-middle" stroke="white" stroke-width="4" tabindex="-1"></line>
+                     <line x2="30" y1="23" y2="23" id="icon__hamburger-bottom" stroke="white" stroke-width="4" tabindex="-1"></line>
+                     <line x1="4.4" y1="4" x2="25.6" y2="25.2" id="icon__hamburger-closeleft" stroke="white" stroke-width="4" tabindex="-1"></line>
+                     <line x1="4.4" y1="25.2" x2="25.6" y2="4" id="icon__hamburger-closeright" stroke="white" stroke-width="4" tabindex="-1"></line>
+                  </svg>

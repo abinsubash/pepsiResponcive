@@ -1,0 +1,643 @@
+.body1 {
+    margin: 0px;
+}
+
+.head {
+    background-color: blue;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.image {
+    width: 60px;
+    margin-left: 20px;
+
+}
+
+.products {
+    color: white;
+    font-weight: bold;
+    margin-left: 60px;
+}
+
+.arrow1 {
+    border: solid rgb(255, 255, 255);
+    border-width: 0 2.5px 2.5px 0;
+    padding: 2.5px;
+    float: right;
+    transform: rotate(-314deg);
+    margin-top: 8px;
+    margin-left: 12px;
+
+}
+.contact {
+    margin-left: 30px;
+    font-weight: bold;
+}
+.colom1 {
+    color: white;
+    font-size: 15px;
+}
+
+@media (min-width:993px) {
+    .by {
+        position: absolute;
+        top: 30px;
+        right: 50px;
+        background-color: blue;
+        border: white solid;
+        border-radius: 25px;
+        height: 30px;
+        width: 217px;
+    }
+    .contact {
+        margin-left: 30px;
+        font-weight: bold;
+    }
+
+    .by:hover {
+        background-color: white;
+    }
+
+    .font1 {
+        padding-top: 0px;
+        color: white;
+        margin-left: 13px;
+        font-weight: bold;
+    }
+
+    .font1:hover {
+        color: blue;
+
+
+    }
+
+    .shopnow {
+        width: 29vw;
+        height: 7.5vw;
+        background-color: white;
+        position: absolute;
+        top: 85%;
+        left: 35%;
+    }
+
+    .font2 {
+        font-size: 4vw;
+        font-weight: 900;
+        color: rgb(0, 0, 0);
+        padding-left: 4vw;
+        padding-top: 0.4vw;
+    }
+
+    .img2 {
+        width: 100%;
+    }
+
+    .imgphone1 {
+        width: 100%;
+        display: none;
+    }
+
+    .imgphone2 {
+        display: none;
+    }
+
+    .p3c5 {
+        width: 35%;
+        height: 7.5%;
+        background-color: white;
+        position: absolute;
+        top: 70%;
+        right: 10%;
+    }
+    .font3 {
+        font-size: 3vw;
+        color: black;
+        font-weight: 900;
+    }
+    .p3c2 {
+    width: 46.3vw;
+    position: absolute;
+    top: 30%;
+    left: 2%;
+}
+.p3c3 {
+    width: 46.3vw;
+    position: absolute;
+    top: 30%;
+    right: 2%;
+}
+.p3c4 {
+    width: 31.6vw;
+    height: 7.5%;
+    background-color: white;
+    position: absolute;
+    top: 70%;
+    left: 10%;
+}
+.font4 {
+    font-size: 35px;
+    color: black;
+    font-weight: 900;
+    padding-top: 2%;
+}
+.p5f1{
+    font-size: 4vw;
+    font-weight: 900;
+    color: blue;
+    margin-left: 13%;
+}
+.font4:hover{
+    color: white;
+}
+.p5c2{
+    width: 82%;
+    height: 15vw;
+    background-color: blue;
+    border: solid blue 2px;
+    position: relative;
+    margin-left: 5%;
+   
+}
+.p5s1{
+    width: 18%;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+}
+.p5s2{
+    width: 18%;
+    background-color: blue;
+    margin-left: 18%;
+    position: absolute;
+}
+.p5s3{
+    width: 18%;
+    background-color:blue;
+    float: left;
+    margin-left: 36%;
+    position: absolute;
+}
+.p5s4{
+    width: 18%;
+        float: left;
+    margin-left: 54%;
+    position: absolute;
+    
+}
+.p5s5{
+    width: 18%;
+        float: left;
+    margin-left: 72%;
+    position: absolute; 
+}
+.p5s6{
+    width: 18%;
+        float: left;
+    margin-left: 90%;
+    position: absolute; 
+}
+.img6{
+    width: 100%;
+}
+.p5c3{
+    width: 100%;
+    height: 50.5vh;
+    background-color: rgb(0, 47, 255);
+    margin-top: 3%;
+    position: relative;
+}
+.logo2{
+    width: 8%;
+    height: 8vw;
+    float: left;
+    margin-left: 2%;
+    margin-top: 7%;
+}
+.img7{
+    width: 100%;
+}
+ .p5s7{
+    width: 17%;
+    height: 7vw;
+    margin-left: 7%;
+    float: left;
+    margin-top: 7%;
+ }
+ .p5s8{
+    width: 17%;
+    height: 7vw;
+    margin-left: 2%;
+    float: left;
+    margin-top: 7%;
+ }
+ .p5s9{
+    width: 17%;
+    height: 7vw;
+    margin-left: 2%;
+    float: left;
+    margin-top: 7%;
+ }
+ .p5s10{
+    width: 24%;
+    height: 3.5vw;
+    margin-right: 4%;
+    float: right;
+    margin-top: 9%;
+ }
+ .instagram{
+    height: 2.5vw;
+    width: 2.5% ;
+    background-size: cover;
+    background-image: url(https://www.pepsi.com/en-us/refresh082123/images/social/icon-instagram.svg?mtime=20180110134805);
+    position: absolute;
+ }
+ .x{
+    height: 2.5vw;
+    width: 2% ;
+    background-size: cover;
+    background-image: url(https://www.pepsi.com/en-us/refresh082123/images/social/icon-x.svg);
+    position: absolute;
+    float: left;
+    margin-left: 4%;
+ }
+ .facebook{
+    height: 2.5vw;
+    width: 2.5% ;
+    background-size: cover;
+    background-image: url(https://www.pepsi.com/en-us/refresh082123/images/social/icon-facebook.svg?mtime=20180110134803);
+    position: absolute;
+    float: left;
+    margin-left: 8%;
+ }
+ .youtube{
+    height: 1.8vw;
+    width: 2.6% ;
+    background-size: cover;
+    background-image: url(https://www.pepsi.com/en-us/refresh082123/images/social/icon-youtube.svg?mtime=20180110134811);
+    position: absolute;
+    float: left;
+    margin-top: 0.4%;
+    margin-left: 12.5%;
+
+ }
+ .ticktok{
+    height: 2.5vw;
+    width: 2.5% ;
+    background-size: cover;
+    background-image: url(https://www.pepsi.com/en-us/refresh082123/images/social/icon-tiktok.svg);
+    position: absolute;
+    float: left;
+    margin-left: 16%;
+
+ }
+ .tred{
+    height: 2.5vw;
+    width: 3% ;
+    background-size: cover;
+    background-image: url(https://www.pepsi.com/en-us/refresh082123/images/social/icon-threads.svg);
+    position: absolute;
+    float: left;
+    margin-left: 19.5%;
+
+ }
+ .us{
+    font-weight: 900; 
+    color: white;
+ }
+}
+
+@media(max-width: 992px) {
+    .imgphone1 {
+        width: 100%;
+        display: block;
+    }
+
+    .shopnow {
+        width: 50vw;
+        height: 10vw;
+        background-color: white;
+        position: absolute;
+        top: 84%;
+        left: 25%;
+    }
+    .p3c5 {
+        width: 45%;
+        height: 7.5%;
+        background-color: white;
+        position: absolute;
+        top: 90%;
+        right: 30%;
+    }
+    .contact {
+        margin-left: 13%;
+        font-weight: bold;
+    }
+    .font2 {
+        font-size: 6vw;
+        font-weight: 900;
+        color: rgb(0, 0, 0);
+        padding-left: 6vw;
+        padding-top: 1vw;
+    }
+    .p3c2 {
+        width: 80%;
+        position: absolute;
+        top: 20%;
+        left: 10%;
+    }
+    .img2 {
+        display: none;
+    }
+
+    .imgphone2 {
+        width: 100%;
+        height: 160vw;
+
+    }
+    .p3c4 {
+        width: 35%;
+        height: 6%;
+        background-color: white;
+        position: absolute;
+        top: 50%;
+        left: 30%;
+    }
+    .p5f1{
+        font-size: 35px;
+        font-weight: 900;
+        color: blue;
+        margin-left: 13%;
+    }
+
+    .img1 {
+        display: none;
+    }
+
+    .head {
+        background-color: blue;
+
+    }
+
+    .image {
+        width: 16vw;
+
+    }
+
+    .products {
+        color: white;
+        font-weight: bold;
+        margin-left: -10px;
+    }
+
+    .by {
+        width: 217px;
+        margin-left: 31vw;
+    }
+
+    .font1 {
+        color: white;
+        font-weight: bold;
+    }
+
+    .colom1 {
+        color: white;
+        font-size: 15px;
+        margin-left: 28vw;
+    }
+
+    .imagge1 {
+        display: none;
+    }
+    .font3 {
+        font-size: 5vw;
+        color: black;
+        font-weight: 900;
+        padding-top: 4%;
+    }
+    .font4 {
+        font-size: 4.4vw;
+        color: black;
+        font-weight: 900;
+        padding-top: 6%;
+    }
+    .p3c3 {
+        width: 80%;
+        position: absolute;
+        top: 60%;
+      right: 10%;
+    }
+    .font4:hover{
+        color: white;
+    }
+    .p5c2{
+        width: 90vw;
+        background-color: red;
+        margin-left: 15px;
+        border: solid 2px blue;
+    
+    }
+    .p5s1{
+        width: 50%;
+        float: left;
+    }
+    .img6{
+        width: 100%;
+    }
+    .p5s2{
+        width: 50%;
+        float: left;
+    }
+    .p5s3{
+        width: 50%;
+        float: left;
+    }
+    .p5s4{
+        width: 50%;
+        float: left;
+    }
+    .p5s5{
+        width: 50%;
+        float: left;
+  }
+    .p5s6{
+        width: 50%;
+        display: flex;
+    }
+    .img7{
+        width: 100%;
+    }
+    .logo2{
+        width: 15%;
+        margin-top: 15%;
+        margin-left: 40%;
+    }
+    .us{
+        font-weight: 200; 
+        font-size: 12px;
+        color: white;
+        margin-left: 37%;
+        margin-top: 6%;
+     }
+     .p5s10{
+        width: 100%;
+        height: 12vh;background-color: rgb(0, 21, 255);
+     }
+     .tred{
+        height: 8vw;
+        width: 8% ;
+        background-size: cover;
+        background-image: url(https://www.pepsi.com/en-us/refresh082123/images/social/icon-threads.svg);
+        position: absolute;
+        float: left;
+        margin-top: 3%;
+        margin-left: 60%;
+    
+     }
+     .instagram{
+        height: 8vw;
+        width: 8% ;
+        background-size: cover;
+        background-image: url(https://www.pepsi.com/en-us/refresh082123/images/social/icon-instagram.svg?mtime=20180110134805);
+        position: absolute;
+        margin-top: 3%;
+        margin-left: 10%;
+     }
+     .x{
+        height: 8vw;
+        width: 8% ;
+        background-size: cover;
+        background-image: url(https://www.pepsi.com/en-us/refresh082123/images/social/icon-x.svg);
+        position: absolute;
+        float: left;
+        margin-top: 3%;
+        margin-left: 20%;
+     }
+     .facebook{
+        height: 8vw;
+        width: 8% ;
+        background-size: cover;
+        background-image: url(https://www.pepsi.com/en-us/refresh082123/images/social/icon-facebook.svg?mtime=20180110134803);
+        position: absolute;
+        float: left;
+        margin-top: 3%;
+        margin-left: 30%;
+     }
+     .youtube{
+        height: 5vw;
+        width: 7.5% ;
+        background-size: cover;
+        background-image: url(https://www.pepsi.com/en-us/refresh082123/images/social/icon-youtube.svg?mtime=20180110134811);
+        position: absolute;
+        float: left;
+        margin-top: 5%;
+        margin-left: 42%;
+    
+     }
+     .ticktok{
+        height: 7vw;
+        width: 7% ;
+        background-size: cover;
+        background-image: url(https://www.pepsi.com/en-us/refresh082123/images/social/icon-tiktok.svg);
+        position: absolute;
+        float: left;
+        margin-top: 3%;
+        margin-left: 53%;
+    
+     }
+}
+
+.navbar-toggler {
+    color: blue;
+}
+
+.video1 {
+    width: 100%;
+}
+
+.page1 {
+    width: 100%;
+    background-color: rgb(0, 0, 141);
+}
+
+.page2 {
+    width: 100%;
+    background: blue;
+    position: relative;
+
+}
+
+.img1 {
+    width: 100%;
+    height: auto;
+}
+
+
+.font2:hover {
+    color: white;
+    background-color: blue;
+}
+
+.shopnow:hover {
+    background-color: blue;
+}
+
+.page3 {
+    width: 100%;
+    position: relative;
+}
+
+.img3 {
+    width: 100%;
+    margin-top: -1%;
+
+}
+
+.p3c1 {
+    width: 88vw;
+    position: absolute;
+    top: 6vw;
+    left: 5vw;
+}
+
+
+.img4 {
+    width: 100%;
+}
+
+
+
+.p3c4:hover {
+    background-color: blue;
+}
+
+
+
+.font3:hover {
+    color: white;
+    background-color: blue;
+
+}
+
+.p3c5:hover {
+    background-color: blue;
+}
+.page4{
+    width: 100%;
+    background-color: black;
+}
+.video2{
+    width: 100%;
+}
+.page5{
+    width: 100%;
+    background-color: black;
+    height: auto;
+
+}
+.p5c1{
+    width: 100%;
+    margin-top: 0px;
+    background-color: black;
+}
+
